@@ -2,6 +2,10 @@
   margin-top: 10px;
   background-color: #ecf0f1;
 }
+.content {
+  padding-top: 10%;
+  text-align: center;
+}
 .navbar-dark {
   background: black !important;
 }
@@ -10,4 +14,5 @@
 }
 .navbar-dark .navbar-brand {
   color: #671b1b;
+  font-size: 45px;
 }
