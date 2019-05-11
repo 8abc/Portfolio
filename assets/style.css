@@ -1,0 +1,13 @@
+.jumbotron {
+  margin-top: 10px;
+  background-color: #ecf0f1;
+}
+.navbar-dark {
+  background: black !important;
+}
+.navbar-dark .navbar-nav > li > a {
+  color: white;
+}
+.navbar-dark .navbar-brand {
+  color: #671b1b;
+}
