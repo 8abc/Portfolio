@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .jumbotron {
   margin-top: 10px;
   background-color: #ecf0f1;
@@ -13,6 +16,12 @@
   color: white;
 }
 .navbar-dark .navbar-brand {
-  color: #671b1b;
+  color: white;
   font-size: 45px;
+}
+.name {
+  color: white;
+}
+.bio {
+  color: white;
 }
