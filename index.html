@@ -28,32 +28,29 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="navbar-brand">ABC</a>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+      <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">ABC</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
     <!-- landing page -->
     <div class="container" id="projects">
       <div class="row">
@@ -66,49 +63,72 @@
         </div>
       </div>
     </div>
-     <!-- projects -->
-     <div class="row">
-      <div class="col-lg-4">
-        <div class="thumbnail">
-            <a href="https://8abc.github.io/Psychic-Game/">
-          <img src="./images/image1.png" class="img-thumbnail" />HTML | CSS | Bootstrap | Javascript</a>
+  <!-- Projects -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Projects</h2>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="thumbnail">
-          <a href="https://8abc.github.io/Giphy-API/">
-          <img src="./images/image2.png" class="img-thumbnail" />HTML | CSS | Boostrap | Javascript| jQuery | API | Ajax </a>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="thumbnail">
-          <a href="https://8abc.github.io/TriviaGame/">
-          <img src="./images/image3.png" class="img-thumbnail" /> HTML | CSS | Boostrap | Javascript| jQuery </a>
-        </div>
-      </div>
-    </div>  
-    <div class="row">  
-      <div class="col-lg-4">
-        <div class="thumbnail">
-          <a href="https://8abc.github.io/project1/">
-          <img src="./images/image4.png" class="img-thumbnail" />HTML | CSS | Boostrap | Javascript| jQuery | API | Ajax </a>
-        </div>
-      </div>
-        <div class="col-lg-4">
-          <div class="thumbnail">
-            <a href="https://8abc.github.io/unit-4-game/">
-            <img src="./images/image5.png" class="img-thumbnail" />HTML | CSS | Boostrap | Javascript| jQuery </a>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="https://8abc.github.io/Psychic-Game/">
+            <img class="img-fluid" src="./images/image1.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Psychic Game</h4>
+            <!-- <p class="text-muted">Illustration</p> -->
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="thumbnail">
-            <a href="https://abc-friendfinder.herokuapp.com/">
-            <img src="./images/image7.png" class="img-thumbnail" /></a>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="https://8abc.github.io/Giphy-API/">
+            <img class="img-fluid" src="./images/image2.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Giphy API</h4>
+            <!-- <p class="text-muted">Graphic Design</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="https://8abc.github.io/TriviaGame/">
+            <img class="img-fluid" src="./images/image3.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Trivia Game</h4>
+            <!-- <p class="text-muted">Identity</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="https://8abc.github.io/project1/">
+            <img class="img-fluid" src="./images/image4.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Newsly</h4>
+            <!-- <p class="text-muted">Branding</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="https://8abc.github.io/unit-4-game/">
+            <img class="img-fluid" src="./images/image5.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Crystal Game</h4>
+            <!-- <p class="text-muted">Website Design</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="https://abc-friendfinder.herokuapp.com/">
+            <img class="img-fluid" src="./images/image7.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Friend Finder</h4>
+            <!-- <p class="text-muted">Photography</p> -->
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- jumbotron -->
   <div class="container">
     <div class="jumbotron" id="contact">
